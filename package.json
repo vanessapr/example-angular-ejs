@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "watch": "ng build --watch",
-    "start:express": "pm2 start node server.js --watch --name appDev",
+    "start:express": "ng build --dev && pm2 start node server.js --watch --name appDev",
     "stop": "pm2 stop appDev"
   },
   "private": true,

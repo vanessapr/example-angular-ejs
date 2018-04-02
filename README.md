@@ -5,8 +5,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Running on local
 
 ```sh
-yarn watch
 yarn start:express
+yarn watch
 ```
 
 Navigate to `http://localhost:8000/`
